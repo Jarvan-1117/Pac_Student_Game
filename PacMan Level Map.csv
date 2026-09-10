@@ -1,0 +1,41 @@
+﻿1,2,2,2,2,2,2,2,2,2,2,2,2,7
+2,5,5,5,5,5,5,5,5,5,5,5,5,4
+2,5,3,4,4,3,5,3,4,4,4,3,5,4
+2,6,4,0,0,4,5,4,0,0,0,4,5,4
+2,5,3,4,4,3,5,3,4,4,4,3,5,3
+2,5,5,5,5,5,5,5,5,5,5,5,5,5
+2,5,3,4,4,3,5,3,3,5,3,4,4,4
+2,5,3,4,4,3,5,4,4,5,3,4,4,3
+2,5,5,5,5,5,5,4,4,5,5,5,5,4
+1,2,2,2,2,1,5,4,3,4,4,3,0,4
+0,0,0,0,0,2,5,4,3,4,4,3,0,3
+0,0,0,0,0,2,5,4,4,0,0,0,0,0
+0,0,0,0,0,2,5,4,4,0,3,4,4,8
+2,2,2,2,2,1,5,3,3,0,4,0,0,0
+0,0,0,0,0,0,5,0,0,0,4,0,0,0
+,,,,,,,,,,,,,
+x,o,o,o,o,o,o,o,o,o,o,o,o,t
+o,s,s,s,s,s,s,s,s,s,s,s,s,i
+o,s,c,i,i,c,s,c,i,i,i,c,s,i
+o,p,i,e,e,i,s,i,e,e,e,i,s,i
+o,s,c,i,i,c,s,c,i,i,i,c,s,c
+o,s,s,s,s,s,s,s,s,s,s,s,s,s
+o,s,c,i,i,c,s,c,c,s,c,i,i,i
+o,s,c,i,i,c,s,i,i,s,c,i,i,c
+o,s,s,s,s,s,s,i,i,s,s,s,s,i
+x,o,o,o,o,x,s,i,c,i,i,c,e,i
+e,e,e,e,e,o,s,i,c,i,i,c,e,c
+e,e,e,e,e,o,s,i,i,e,e,e,e,e
+e,e,e,e,e,o,s,i,i,e,c,i,i,g
+o,o,o,o,o,x,s,c,c,e,i,e,e,e
+e,e,e,e,e,e,s,e,e,e,i,e,e,e
+,,,,,,,,,,,,,
+0,e Empty,,,,,,,,,,,,
+1,x Outside corner (double lined corener piece in orginal game),,,,,,,,,,,,
+2,o Outside wall (double line in original game),,,,,,,,,,,,
+3,c Inside corner  (single lined corener piece in orginal game),,,,,,,,,,,,
+4,i Inside wall (single line in orginal game),,,,,,,,,,,,
+5,s Standard pallet,,,,,,,,,,,,
+6,p Power pallet,,,,,,,,,,,,
+7,t A t junction piece for connecting with ajoining regions,,,,,,,,,,,,
+8,"g A wall that ghosts can exit through, but not enter.",,,,,,,,,,,,
