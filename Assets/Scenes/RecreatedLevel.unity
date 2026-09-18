@@ -3627,6 +3627,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 206192660}
+  - component: {fileID: 206192661}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -3649,6 +3650,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &206192661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206192659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e52207036d004b7c8979924aeaab674, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::LevelGenerator
+  manualLevel: {fileID: 1267718858}
+  outsideCornerPrefab: {fileID: 3428823094131310749, guid: 5a9395dee48ad4fbe8c7f79c32fc51d3, type: 3}
+  outsideWallPrefab: {fileID: 7035184167890897092, guid: bb549b8b245fd490681ab694923fde42, type: 3}
+  insideCornerPrefab: {fileID: 495555285923358100, guid: a37140f3d4abb4c8a83d1d1306d93b2c, type: 3}
+  insideWallPrefab: {fileID: 2870009047823649472, guid: 73694885aed11426a8bde86d807c1fa8, type: 3}
+  standardPelletPrefab: {fileID: 7951467986118732157, guid: eb828251743df4f8abd07927b6fafa43, type: 3}
+  powerPelletPrefab: {fileID: 4729858911727192353, guid: 8ef0d8d9ef898495d9f49b2e8150b8ca, type: 3}
+  tJunctionPrefab: {fileID: 4445884104700465862, guid: 8192d541aab28400bbecb89c13432bd9, type: 3}
+  ghostExitWallPrefab: {fileID: 8814678781935065894, guid: bc3d3cc72f23a49e7a8c757cce696e72, type: 3}
 --- !u!1001 &208634805
 PrefabInstance:
   m_ObjectHideFlags: 0
